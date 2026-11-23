@@ -41,6 +41,7 @@ const dishes = [
       <div class="wrap">
         <div class="eyebrow">菜单选粹</div>
         <h2>小馆招牌</h2>
+        <p>砂锅鸡汤鲜醇，青椒牛肉鲜辣，再配一盘清爽的时令鲜蔬。</p>
         <div class="grid">
           <article v-for="dish in dishes" :key="dish.name">
             <h3>{{ dish.name }}</h3>
