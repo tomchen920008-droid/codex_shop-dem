@@ -1,0 +1,35 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#f8f5ed;color:#262b22;font:16px/1.7 system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:3px solid #d57c54;outline-offset:5px}
+header,.wrap{width:min(1120px,90%);margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:16px}
+.brand,h1,h2,h3{font-family:"Noto Serif SC","Songti SC",SimSun,serif}
+.brand{font-size:25px;font-weight:bold;white-space:nowrap}
+.seal{display:inline-block;background:#9e442c;color:#fff;padding:1px 7px;font-size:17px;margin-right:8px}
+nav{display:flex;gap:clamp(12px,4vw,46px)}
+.hero{min-height:590px;display:grid;align-items:center;color:#fff9ee;background:linear-gradient(90deg,#141a13f0,#141a1350),url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2000&q=85") center/cover #303629}
+.eyebrow{font-size:14px;letter-spacing:.23em;color:#a14831;font-weight:700}
+.hero .eyebrow{color:#ffc6a8}
+.hero h1{font-size:clamp(53px,9vw,100px);line-height:1.12;margin:18px 0 24px;letter-spacing:.07em}
+.hero p{font-size:18px}
+.button{display:inline-block;background:#a14831;color:white;padding:12px 24px;margin-top:12px}
+.button:hover{background:#813824}
+section{padding:72px 0}
+h2{font-size:clamp(32px,5vw,48px);margin:5px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:32px}
+article{background:#fffdf6;border:1px solid #e1dbcb;padding:24px;border-top:3px solid #a14831}
+h3{font-size:23px;margin:0}
+article p{color:#55574c;margin:10px 0}
+.price{color:#a14831;font-weight:bold}
+.visit{background:#292f24;color:#fff9ed}
+.visit .eyebrow{color:#ffc6a8}
+.details{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.details p{margin:6px 0}
+footer{padding:20px 5%;color:#5b6055;font-size:14px}
+@media(max-width:650px){.hero{min-height:500px}
+.grid,.details{grid-template-columns:1fr}
+section{padding:50px 0}
+nav{font-size:14px}
+.brand{font-size:19px}}
