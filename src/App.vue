@@ -32,7 +32,7 @@ const dishes = [
       <div class="wrap">
         <div class="eyebrow">时令晚餐哈哈风味</div>
         <h1>山野小馆</h1>
-        <p>循着节气挑食材，慢火做一桌家常好菜。</p>
+        <p>用当季食材，做一桌热腾腾的家常菜。</p>
         <a class="button" href="#menu">看看招牌菜</a>
       </div>
     </div>
